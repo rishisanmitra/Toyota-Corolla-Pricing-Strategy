@@ -131,7 +131,7 @@ R, `neuralnet`, `glm`, `caret`, `fastDummies`, `dplyr`
 ## Author
 
 **Rishi Sanmitra Pillutla**  
-Aspiring Data Analyst | Passionate about turning data into business value  
+Aspiring Data Analyst | Passion for Turning Data into Insights | Transforming Data into Business Solutions 
 
 🔗 [LinkedIn](https://www.linkedin.com/in/rishisanmitra/)  
 🔗 [DataSciencePortfol.io](https://www.datascienceportfol.io/rishisanmitra12)
