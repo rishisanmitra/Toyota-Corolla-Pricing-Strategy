@@ -1,0 +1,58 @@
+TOYOTA COROLLA PRICING STRATEGY — MODEL RESULTS
+
+Project Objective:
+To classify used Toyota Corolla cars as priced above average (1) or not (0) using machine learning models.
+
+------------------------------------------------------------
+Dataset Summary
+------------------------------------------------------------
+Records used: 1,000
+Variables included: Age_08_04, KM, Fuel_Type, HP, Met_Color, Automatic, Doors, Quarterly_Tax, Weight
+Average price threshold: 12,214 euros
+Cars above average price: 37.3%
+Training set: 70%
+Testing set: 30%
+
+------------------------------------------------------------
+Model Performance
+------------------------------------------------------------
+1. Logistic Regression
+   - Accuracy: 89.33%
+   - Sensitivity (Below-Average Cars): 90.55%
+   - Specificity (Above-Average Cars): 86.87%
+   - Balanced Accuracy: 88.71%
+
+2. Neural Network
+   - Architecture: 2 hidden layers (5, 2 neurons)
+   - Accuracy: 90.00%
+   - Sensitivity (Below-Average Cars): 91.54%
+   - Specificity (Above-Average Cars): 86.87%
+   - Balanced Accuracy: 89.21%
+
+------------------------------------------------------------
+Interpretation
+------------------------------------------------------------
+• Logistic regression revealed clear trends:
+  - Newer cars with fewer kilometers are more likely to be above-average in price.
+  - Higher horsepower and automatic transmission improve resale potential.
+  - Diesel cars tend to retain better value compared to Petrol or CNG.
+  - Heavier cars with higher taxes are often better-equipped premium variants.
+
+• The neural network identified deeper feature interactions:
+  - Cars with a strong mix of performance (HP, Weight) and comfort (Automatic, Metallic Paint) features
+    can still command above-average prices even when older or higher mileage.
+  - Nonlinear effects show diminishing returns for horsepower and weight beyond certain limits.
+
+------------------------------------------------------------
+Business Insight
+------------------------------------------------------------
+Both models performed strongly, but the neural network achieved a slightly better balance 
+between sensitivity and specificity. This makes it more reliable for identifying high-value cars 
+without overestimating low-value ones.
+
+For operational use:
+• Use the Logistic Regression model when interpretability is most important.
+• Use the Neural Network model when maximizing prediction accuracy is the goal.
+
+Together, these models provide a data-driven foundation for dealership pricing decisions, 
+helping identify high-margin vehicles and improving overall profitability.
